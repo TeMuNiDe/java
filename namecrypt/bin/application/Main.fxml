@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ctrl">
+   <children>
+      <TextField fx:id="iptxt" layoutX="59.0" layoutY="77.0" />
+      <TextField fx:id="opk" layoutX="413.0" layoutY="128.0" />
+      <TextField fx:id="opn" layoutX="413.0" layoutY="77.0" />
+      <Label layoutX="62.0" layoutY="28.0" prefHeight="40.0" prefWidth="149.0" text="enter file name here" />
+      <Button layoutX="59.0" layoutY="167.0" mnemonicParsing="false" onAction="#genrt" prefHeight="52.0" prefWidth="149.0" text="Generate new name" />
+      <Label fx:id="crypted" layoutX="59.0" layoutY="240.0" prefHeight="78.0" prefWidth="149.0" />
+      <Label fx:id="orig" layoutX="422.0" layoutY="240.0" prefHeight="78.0" prefWidth="149.0" />
+      <Label layoutX="386.0" layoutY="48.0" text="crypted name" />
+      <Label layoutX="389.0" layoutY="102.0" text="key code" />
+      <Button layoutX="413.0" layoutY="167.0" mnemonicParsing="false" onAction="#find" prefHeight="52.0" prefWidth="149.0" text="Find original name" />
+   </children>
+</AnchorPane>

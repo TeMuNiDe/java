@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" spacing="10.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Cntrl">
+   <children>
+      <StackPane prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <Label fx:id="ans" prefHeight="49.0" prefWidth="304.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children></StackPane>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+         <children>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#nmbr" prefWidth="50.0" text="7">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#nmbr" prefWidth="50.0" text="8">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#nmbr" prefWidth="50.0" text="9">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#oper" prefWidth="50.0" text="/" textAlignment="CENTER">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+         <children>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#nmbr" prefWidth="50.0" text="6">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#nmbr" prefWidth="50.0" text="5">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#nmbr" prefWidth="50.0" text="4">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#oper" prefWidth="50.0" text="*" textAlignment="CENTER">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+         <children>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#nmbr" prefWidth="50.0" text="1">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#nmbr" prefWidth="50.0" text="2">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#nmbr" prefWidth="50.0" text="3">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#oper" prefWidth="50.0" text="-" textAlignment="CENTER">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+         <children>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" prefWidth="50.0" text="0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#oper" prefWidth="110.0" text="=">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#oper" prefWidth="50.0" text="+">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+           
+         </children>
+      </HBox>
+   </children>
+</VBox>

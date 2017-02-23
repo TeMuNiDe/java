@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Control">
+   <children>
+      <Label layoutX="25.0" layoutY="40.0" prefHeight="139.0" prefWidth="249.0" text="Fuck You..!!!" textFill="#f7260c">
+         <font>
+            <Font name="Ringbearer Medium" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

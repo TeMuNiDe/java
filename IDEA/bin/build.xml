@@ -1,0 +1,27 @@
+<project default="buildJar">
+
+<property name="buildDir" location="tempBuild"/>
+
+<target name="buildJar">
+ <delete dir="${buildDir}" failonerror="true"/>
+ <mkdir dir="${buildDir}/classes"/>
+ <javac srcdir="." includes="*.java"
+     sourcepath="" deprecation="true" includeAntRuntime="false" debug="true" debuglevel="lines,source"
+     source="1.7" target="1.7" destdir="${buildDir}/classes">
+  <compilerarg line="-Xlint -Xlint:-path -Xlint:-options -Xmaxerrs 6"/>
+ </javac>
+ <jar destfile="idea.jar">
+  <fileset dir="${buildDir}/classes"/>
+ </jar>
+ <delete dir="${buildDir}" failonerror="true"/>
+</target>
+
+<target name="javadoc" description="Generates the API documentation (apidocs)">
+ <delete dir="target/apidocs" failonerror="true"/>
+ <mkdir dir="target/apidocs"/>
+ <javadoc sourcefiles="Idea.java, IdeaFileEncryption.java" destdir="target/apidocs" failonerror="true"
+    additionalparam="-Xdoclint:all,-missing"
+    link="https://docs.oracle.com/javase/8/docs/api/"/>
+</target>
+
+</project>
